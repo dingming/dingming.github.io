@@ -1,0 +1,164 @@
+div.sidemenu {
+	top:		50px;
+	text-align:	center;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+	div.myphoto {
+		padding: 0rem 0;
+		margin: 0rem 0
+	}
+
+	div.myphoto img:hover{
+		-webkit-filter: grayscale(0%);
+		filter: grayscale(0%);
+	}
+
+	div.myphoto img{
+		border-radius: 50%;
+		display: table;
+		margin: 0 auto;
+		padding: 0px;
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+}
+
+	div.myname-side {
+		font-weight: 600;
+		line-height: 1.25;
+		color: #4b4040;
+		text-rendering: optimizeLegibility;
+		text-align: center;
+		margin-top: 1rem;
+	}
+
+	div.sidemenu div.aff{
+		margin-top: 1rem;
+		text-indent: 0;
+		font-size: 0.8rem;
+		font-stretch: extra-condensed;
+		/*    transform: scale(0.5, 1);*/
+	}
+
+	div.sidemenu div.navi{
+		text-align:	left;
+		font-size: 0.8rem;
+	}
+	div.sidemenu div.mylinks img{
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+		maring-left: 5px;
+		margin-right: 5px;
+	}
+
+
+@media screen and (min-width:1000px) {
+	div.sidemenu {
+		width:       180px;
+		position:	fixed;
+		padding-bottom: 30px;
+		border-right: 0.5px solid #888;
+	}
+
+	div.myphoto {
+	}
+
+	div.myphoto img{
+		width: 140px;
+	}
+	
+	div.myname-side {
+		font-size: 1.0rem;
+	}
+
+	div.sidemenu div.aff{
+		font-size: 0.8rem;
+		/*    transform: scale(0.5, 1);*/
+	}
+
+	div#email {
+		  margin-top: 1rem;
+	}
+
+	div.sidemenu div.navi{
+		margin-left: 10px;
+		font-weight: 600;
+	}
+
+	div.sidemenu div.mylinks img{
+		width: 20px;
+	}
+
+
+}
+@media screen and (max-width:999px){
+	div.sidemenu {
+		width:       600px;
+		margin: 0 auto;
+		position:	standard;
+		margin-bottom: 20px;
+		vertical-align:middle;
+	}
+
+	div.myphoto {
+		position: absolute;
+	}
+
+	div.myphoto img{
+		width: 80px;
+	}
+
+	div.sidemenu div.myname-side {
+	        height: 80px;
+		position: absolute;
+		margin-left: 100px;
+		margin-top: 1rem;
+		padding-left: 2rem;
+		font-size: 0.8rem;
+	}
+
+	div.sidemenu div.aff{
+	        height: 80px;
+		position: relative;
+		margin-left: 350px;
+		padding-top: 10px;
+		text-align:right;
+		font-size: 0.7rem;
+	}
+
+	div#email {
+	margin-top: 0.5rem;
+	}
+
+	div.sidemenu div.navi{
+		position: relative;
+		padding-left: 0;
+		margin-left: 0rem;
+		border-bottom: 0.5px solid #888;
+	}
+
+	div.sidemenu div.navi ul{
+		padding-left: 0;
+	}
+
+	div.sidemenu div.navi ul li{
+		display: inline;
+		font-weight: 600;
+		padding-left: 10px;
+		text-decoration: underline;
+	}
+
+	div.sidemenu div.mylinks{
+		position: relative;
+		text-align:right;
+		top: -25px;
+		margin-top: 5px;
+	}
+
+	div.sidemenu div.mylinks img{
+		width: 15px;
+	}
+}
+
