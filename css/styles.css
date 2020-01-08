@@ -80,6 +80,12 @@ h2 {
 	padding-right: 10px;
 }
 
+right {
+position:relative;
+/* padding-right:10px; */
+margin-left: 90%;
+}
+
 div.mypub {
    font-size: 0.9rem;
    text-align: justify;
