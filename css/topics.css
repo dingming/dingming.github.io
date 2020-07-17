@@ -1,0 +1,18 @@
+div.topic {
+	  width: 100%;
+	  text-align:justify;
+	  text-justify:distribute-all-lines;
+}
+
+div.tpc_img{
+	float:left;
+	clear: both;
+	text-align: center;
+ 	vertical-align: top;
+	text-align: justify;
+}
+
+img.tpc_img{
+	width: 300px;
+	padding: 10px;
+}
